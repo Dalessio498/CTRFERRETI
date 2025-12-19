@@ -503,8 +503,29 @@ footer a {
 
   .textSmall {
     font-size: 18px;
-
-
   }
 
+
+  .filhaHistoriaFases, 
+  .filhaHistoriaFases:nth-child(even) {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .filhaHistoriaFases img {
+    width: 150px; 
+    margin-bottom: 15px; 
+  }
+
+  .infoFase,
+  .filhaHistoriaFases:nth-child(even) .infoFase {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center; 
+    
+  }
+  
 }
+
